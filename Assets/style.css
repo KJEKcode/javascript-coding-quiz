@@ -1,0 +1,68 @@
+.inactive {
+    display: none;
+}
+
+#answer-list {
+    padding: 0 1rem;
+}
+
+#answer-list li {
+    cursor: pointer;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    width: 49%;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background: #ccc;
+    padding: 1rem;
+}
+
+.time-li {
+    text-align: right;
+}
+
+input {
+    height: 44px;
+    font-size: 2em;
+}
+
+
+.answer-list li {
+    background-color: #ccc;
+    padding: 1rem;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: .25rem;
+}
+
+.answer-list li:hover {
+    background-color: #eee;
+}
